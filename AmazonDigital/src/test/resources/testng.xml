@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Regression" parallel="tests" thread-count="4" verbose="1" >
+  <test name="Firefox test">
+  	<parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.testNGTCs.AddAProductToCart"/>
+    </classes>
+  </test>
+  <test name="Chrome test">
+  	<parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.testNGTCs.AddAProductToCart"/>
+    </classes>
+  </test>
+  <test name="Edge test">
+  	<parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.testNGTCs.AddAProductToCart"/>
+    </classes>
+  </test>
+  <test name="Chrome-incognito test">
+  	<parameter name="browser" value="Chrome-incognito"/>
+    <classes>
+      <class name="com.testNGTCs.AddAProductToCart"/>
+    </classes>
+  </test>
+</suite>

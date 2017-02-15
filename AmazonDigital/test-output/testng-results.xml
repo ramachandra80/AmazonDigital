@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="16829" started-at="2017-01-29T03:51:52Z" finished-at="2017-01-29T03:52:09Z">
+    <groups>
+    </groups>
+    <test name="Firefox test" duration-ms="16829" started-at="2017-01-29T03:51:52Z" finished-at="2017-01-29T03:52:09Z">
+      <class name="com.testNGTCs.HoverAndMouseMove">
+        <test-method status="PASS" signature="OpenFireHD10(java.lang.String)[pri:0, instance:com.testNGTCs.HoverAndMouseMove@51565ec2]" name="OpenFireHD10" duration-ms="16809" started-at="2017-01-28T22:51:52Z" finished-at="2017-01-28T22:52:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFireHD10 -->
+      </class> <!-- com.testNGTCs.HoverAndMouseMove -->
+    </test> <!-- Firefox test -->
+  </suite> <!-- Regression -->
+</testng-results>
