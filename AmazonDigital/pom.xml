@@ -39,7 +39,7 @@
         <version>2.18.1</version>
         <configuration>
         	<suiteXmlFiles>
-        		<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+        		<suiteXmlFile>src/test/resources/paralleltest-testng.xml</suiteXmlFile>
         	</suiteXmlFiles>
         </configuration>
       </plugin>

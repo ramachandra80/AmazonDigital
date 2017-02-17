@@ -37,6 +37,7 @@ public class HoverAndMouseMove {
 	  
 	  //Working for all browsers
 	  ((JavascriptExecutor)driver).executeScript("arguments[0].click()", homePage.HD10);
+	  driver.close();
 	  
   }
   
